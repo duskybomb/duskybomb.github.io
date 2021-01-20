@@ -3,6 +3,10 @@
   {% if site.news  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
+        <colgroup>
+          <col style="width:15%">
+          <col style="width:85%">
+        </colgroup>
       {% assign news = site.news | reverse %}
       {% for item in news limit: site.news_limit %}
         <tr>
