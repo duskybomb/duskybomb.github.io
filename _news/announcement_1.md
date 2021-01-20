@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-01-11 15:59:00+0530
 inline: true
 ---
 
-A simple inline announcement.
+Long Paper accepted at EACL 2021! PHASE: Learning Emotional Phase-aware Representations for Suicide Ideation Detection on Social Media

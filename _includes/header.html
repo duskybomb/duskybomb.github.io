@@ -56,6 +56,18 @@
           </li>
           {% endif %}
           {% endfor %}
+          <!-- CV -->
+          <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/assets/pdf/Harshit_Joshi_CV.pdf' | relative_url }}", target="_blank">
+              cv
+            </a>
+          </li>
+          <!-- Resume -->
+          <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
+            <a class="nav-link" href="{{ '/assets/pdf/Harshit_Joshi_Resume.pdf' | relative_url }}", target="_blank">
+              resume
+            </a>
+          </li>
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
               <a id = "light-toggle">
