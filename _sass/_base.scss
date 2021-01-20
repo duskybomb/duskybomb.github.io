@@ -9,6 +9,7 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
 }
 
 a, table.table a {
+  font-weight: 400;
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
