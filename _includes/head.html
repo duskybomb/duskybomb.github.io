@@ -13,6 +13,7 @@
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
 <meta property="og:description" content="{{ page.title }}" />
 <meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+<meta name="thumbnail" content="{%- if page.thumbnail -%}{{ page.thumbnail }}{%- else -%}{{ site.thumbnail }}{%- endif -%}" />
 {% endif %}
 
 <!-- Bootstrap & MDB -->
