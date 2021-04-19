@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href=https://du.ac.in>University of Delhi</a>, Cluster Innovation Centre
+description: <a href=https://du.ac.in>University of Delhi</a>, Cluster Innovation Centre | harshit113 [at] ducic [dot] ac [dot] in
 
 profile:
   align: right
