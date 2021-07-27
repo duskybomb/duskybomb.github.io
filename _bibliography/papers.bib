@@ -1,20 +1,7 @@
 ---
 ---
 
-@article{sawhney-2021-jamia,
-    author = {Sawhney, Ramit and Joshi, Harshit and Gandhi, Saumya and Jin, Di and Shah, Rajiv Ratn},
-    title = "{Robust Suicide Risk Assessment on Social Media via Deep Adversarial Learning}",
-    journal = {Journal of the American Medical Informatics Association},
-    year = {2021},
-    month = {03},
-    abstract = "{The prevalence of social media for sharing personal thoughts makes it a viable platform for the assessment of suicide risk. However, deep learning models are not able to capture the diverse nature of linguistic choices and temporal patterns that can be exhibited by a suicidal user on social media and end up overfitting on specific cues that are not generally applicable. We propose Adversarial Suicide assessment Hierarchical Attention (ASHA), a hierarchical attention model that employs adversarial learning for improving the generalization ability of the model.We assess the suicide risk of a social media user across 5 levels of increasing severity of risk. ASHA leverages a transformer-based architecture to learn the semantic nature of social media posts and a temporal attention-based long short-term memory architecture for the sequential modeling of a user’s historical posts. We dynamically generate adversarial examples by adding perturbations to actual examples that can simulate the stochasticity in historical posts, thereby making the model robust.Through extensive experiments, we establish the face-value of ASHA and show that it significantly outperforms existing baselines, with the F1 score of 64%. This is a 2% and a 4% increase over the ContextBERT and ContextCNN baselines, respectively. Finally, we discuss the practical applicability and ethical aspects of our work pertaining to ASHA, as a human-in-the-loop framework.Adversarial samples can be helpful in capturing the diverse nature of suicidal ideation. Through ASHA, we hope to form a component in a larger human-in-the-loop infrastructure for suicide risk assessment on social media.}",
-    issn = {1527-974X},
-    doi = {10.1093/jamia/ocab031},
-    html = {https://pubmed.ncbi.nlm.nih.gov/33779728/},
-    note = {ocab031},
-    eprint = {https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocab031/36786366/ocab031.pdf},
-    image={jamia_loss.png}
-}
+
 
 @inproceedings{sawhney-etal-2021-moderation,
     abbr={ICWSM 21},
@@ -29,7 +16,9 @@
     volume = 15,
     note = {* Equal Contribution},
     selected={true},
-    image={icwsm.png}
+    image={icwsm.png},
+    html={https://ojs.aaai.org/index.php/ICWSM/article/view/18088},
+    abstract={Social media platforms are already engaged in leveraging existing online socio-technical systems to employ just-in-time interventions for suicide prevention to the public. These efforts primarily rely on self-reports of potential self-harm content that is reviewed by moderators. Most recently, platforms have employed automated models to identify self-harm content, but acknowledge that these automated models still struggle to understand the nuance of human language (e.g., sarcasm). By explicitly focusing on Twitter posts that could easily be misidentified by a model as expressing suicidal intent (i.e., they contain similar phrases such as ``wanting to die''), our work examines the temporal differences in historical expressions of general and emotional language prior to a clear expression of suicidal intent. Additionally, we analyze time-aware neural models that build on these language variants and factors in the historical, emotional spectrum of a user's tweeting activity. The strongest model achieves high (statistically significant) performance (macro F1=0.804, recall=0.813) to identify social media indicative of suicidal intent. Using three use cases of tweets with phrases common to suicidal intent, we qualitatively analyze and interpret how such models decided if suicidal intent was present and discuss how these analyses may be used to alleviate the burden on human moderators within the known constraints of how moderation is performed (e.g., no access to the user's timeline). Finally, we discuss the ethical implications of such data-driven models and inferences about suicidal intent from social media. Content warning: this article discusses self-harm and suicide.}
 }
 
 @inproceedings{sawhney-etal-2021-hypersos,
@@ -47,7 +36,24 @@
     series = {NAACL-HLT '21},
     note = {* Equal Contribution},
     selected={true},
-    image={naacl.jpeg}
+    image={naacl.jpeg},
+    html={https://www.aclweb.org/anthology/2021.naacl-main.176/},
+    abstract={Recent psychological studies indicate that individuals exhibiting suicidal ideation increasingly turn to social media rather than mental health practitioners. Personally contextualizing the buildup of such ideation is critical for accurate identification of users at risk. In this work, we propose a framework jointly leveraging a user’s emotional history and social information from a user’s neighborhood in a network to contextualize the interpretation of the latest tweet of a user on Twitter. Reflecting upon the scale-free nature of social network relationships, we propose the use of Hyperbolic Graph Convolution Networks, in combination with the Hawkes process to learn the historical emotional spectrum of a user in a time-sensitive manner. Our system significantly outperforms state-of-the-art methods on this task, showing the benefits of both socially and personally contextualized representations.}
+}
+
+@article{sawhney-2021-jamia,
+    author = {Sawhney, Ramit and Joshi, Harshit and Gandhi, Saumya and Jin, Di and Shah, Rajiv Ratn},
+    title = "{Robust Suicide Risk Assessment on Social Media via Deep Adversarial Learning}",
+    journal = {Journal of the American Medical Informatics Association},
+    year = {2021},
+    month = {03},
+    abstract = "{The prevalence of social media for sharing personal thoughts makes it a viable platform for the assessment of suicide risk. However, deep learning models are not able to capture the diverse nature of linguistic choices and temporal patterns that can be exhibited by a suicidal user on social media and end up overfitting on specific cues that are not generally applicable. We propose Adversarial Suicide assessment Hierarchical Attention (ASHA), a hierarchical attention model that employs adversarial learning for improving the generalization ability of the model.We assess the suicide risk of a social media user across 5 levels of increasing severity of risk. ASHA leverages a transformer-based architecture to learn the semantic nature of social media posts and a temporal attention-based long short-term memory architecture for the sequential modeling of a user’s historical posts. We dynamically generate adversarial examples by adding perturbations to actual examples that can simulate the stochasticity in historical posts, thereby making the model robust.Through extensive experiments, we establish the face-value of ASHA and show that it significantly outperforms existing baselines, with the F1 score of 64%. This is a 2% and a 4% increase over the ContextBERT and ContextCNN baselines, respectively. Finally, we discuss the practical applicability and ethical aspects of our work pertaining to ASHA, as a human-in-the-loop framework.Adversarial samples can be helpful in capturing the diverse nature of suicidal ideation. Through ASHA, we hope to form a component in a larger human-in-the-loop infrastructure for suicide risk assessment on social media.}",
+    issn = {1527-974X},
+    doi = {10.1093/jamia/ocab031},
+    html = {https://pubmed.ncbi.nlm.nih.gov/33779728/},
+    note = {ocab031},
+    eprint = {https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocab031/36786366/ocab031.pdf},
+    image={jamia_loss.png}
 }
 
 @inproceedings{sawhney-etal-2021-phase,
