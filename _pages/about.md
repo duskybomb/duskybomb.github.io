@@ -6,7 +6,7 @@ description: josharshit [at] gmail[dot] com
 
 profile:
   align: right
-  image: profile_picture.png
+  image: prof_pic.jpg
   address: New Delhi, India
 
 news: true  # includes a list of news items
