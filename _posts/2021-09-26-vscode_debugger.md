@@ -14,9 +14,10 @@ However, I loved Vim bindings.
 Now, even my gnome shortcuts are Vim-based (at the time of writing, I am using Zorin OS).
 
 Owing to peer pressure, I started using vscode and haven’t looked back since (I will tell you the reasons some other day).
-I use Vim bindings for navigation and simple text manipulation but use Ctrl with native vs code shortcuts.
+I use Vim bindings for navigation and simple text manipulation but use `Ctrl` with native vs code shortcuts.
 
-Cutting the story short, I had to debug a python library with a command-line interface (e.g., [pySceneDetect](https://github.com/Breakthrough/PySceneDetect)). However, I had absolutely no idea what was that weird launch.json file. What settings do I need to use? There were just too many things going on.
+Cutting the story short, I had to debug a python library with a command-line interface (e.g., [pySceneDetect](https://github.com/Breakthrough/PySceneDetect)).
+However, I had absolutely no idea what was that weird `launch.json` file. What settings do I need to use? There were just too many things going on.
 But after a lot of googling, searching up, and trying out different settings, I finally found my treasure.
 
 {% highlight json linenos %}
