@@ -67,7 +67,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: log  # your blog must have a name for it to show up in the nav bar
-blog_description: Bits that I want to share
+blog_description: Bits that I want to share with future Harshit
 permalink: /blog/:year/:title/
 
 # Pagination
