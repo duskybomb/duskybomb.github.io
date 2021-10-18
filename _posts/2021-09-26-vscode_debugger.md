@@ -2,7 +2,7 @@
 layout: post
 title: Configuring Visual Studio Code Debugger for Python Projects (Module)
 date: 2021-09-26 07:35:00
-description: an example of a blog post with some code
+description: important vs code thing that I keep forgetting
 ---
 A year back, I switched to VS Code from PyCharm as my daily IDE. PyCharm is highly optimized and feature-rich for Python projects, but it comes at a cost. Initially, I was using the education edition. But now that I had to work on something which could help me pay my bills, I was hunting for alternatives.
 
