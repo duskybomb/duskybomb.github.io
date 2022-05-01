@@ -11,7 +11,7 @@ description: I am about to complete a year since I graduated. I wanted to reflec
     </div>
 </div>
 <div class="caption">
-   The fabulous ground at CIC, where we almost never got to play at.
+   The fabulous ground at CIC, where we almost never got to play.
 </div>
 
 **Indian education system is broken.** More often than not it rewards students who are good at theoretical studies.
