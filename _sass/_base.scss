@@ -76,6 +76,10 @@ a, table.table a {
   }
 }
 
+.post-content {
+  font-size: 1.4rem;  
+}
+
 
 // Navbar customization
 
@@ -280,7 +284,7 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 250px;
+    width: 200px;
     margin-bottom: 10px;
     a {
       color: black;
@@ -289,9 +293,10 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
     }
-  }
-  .card img {
-    width: 100%;
+    .card {
+      width: 100%;
+      box-shadow: none;
+    }
   }
 }
 
