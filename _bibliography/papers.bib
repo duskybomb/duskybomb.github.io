@@ -1,6 +1,31 @@
 ---
 ---
 
+@inproceedings{joshi-etal-2022-ring,
+  html = {https://arxiv.org/abs/2208.11640},
+  author = {Joshi, Harshit and Cambronero, José and Gulwani, Sumit and Le, Vu and Radicek, Ivan and Verbruggen, Gust},
+  title = {Repair Is Nearly Generation: Multilingual Program Repair with LLMs},
+  booktitle={Arxiv (Under Review)},
+  year = {2022},
+  selected = {true},
+  image={ring.png},
+  abstract={Most programmers make mistakes when writing code. Some of these mistakes are small and require few edits to the original program - a class of errors recently termed last mile mistakes. These errors break the flow for experienced developers and can stump novice programmers. Existing automated repair techniques targeting this class of errors are domain-specific and do not easily carry over to new domains. Transferring symbolic approaches requires substantial engineering and neural approaches require data and retraining. We introduce RING, a multilingual repair engine powered by a large language model trained on code (LLMC) such as Codex. Such a multilingual engine enables a flipped model for programming assistance, one where the programmer writes code and the AI assistance suggests fixes, compared to traditional code suggestion technology. Taking inspiration from the way programmers manually fix bugs, we show that a prompt-based strategy that conceptualizes repair as localization, transformation, and candidate ranking, can successfully repair programs in multiple domains with minimal effort. We present the first results for such a multilingual repair engine by evaluating on 6 different domains and comparing performance to domain-specific repair engines. We show that RING can outperform domain-specific repair engines in 3 of these domains. We also identify directions for future research using LLMCs for multilingual repair.}
+}
+
+
+@inproceedings{bhavishi-etal-2022-neurosymoblic,
+    abbr={OOPSLA 2022},
+    title = {Neurosymbolic Repair for Low-Code Formula Languages},
+    author={Bavishi, Rohan* and Joshi, Harshit* and S{\'a}nchez, Jos{\'e} Pablo Cambronero and Fariha, Anna and Gulwani, Sumit and Le, Vu and Radicek, Ivan and Tiwari, Ashish},
+    booktitle={Proceedings of the ACM on Programming Languages (OOPSLA)},
+    month = oct,
+    year = {2022},
+    note = {* Equal Contribution},
+    selected={true},
+    image={oopsla22.png},
+    html={https://arxiv.org/abs/2207.11765},
+    abstract={Most users of low-code platforms, such as Excel and PowerApps, write programs in domain-specific formula languages to carry out nontrivial tasks. Often users can write most of the program they want, but introduce small mistakes that yield broken formulas. These mistakes, which can be both syntactic and semantic, are hard for low-code users to identify and fix, even though they can be resolved with just a few edits. We formalize the problem of producing such edits as the last-mile repair problem. To address this problem, we developed LaMirage, a LAst-MIle RepAir-engine GEnerator that combines symbolic and neural techniques to perform last-mile repair in low-code formula languages. LaMirage takes a grammar and a set of domain-specific constraints/rules, which jointly approximate the target language, and uses these to generate a repair engine that can fix formulas in that language. To tackle the challenges of localizing the errors and ranking the candidate repairs, LaMirage leverages neural techniques, whereas it relies on symbolic methods to generate candidate repairs. This combination allows LaMirage to find repairs that satisfy the provided grammar and constraints, and then pick the most natural repair. We compare LaMirage to state-of-the-art neural and symbolic approaches on 400 real Excel and PowerFx formulas, where LaMirage outperforms all baselines. We release these benchmarks to encourage subsequent work in low-code domains.}
+}
 
 
 @inproceedings{sawhney-etal-2021-moderation,
@@ -15,7 +40,6 @@
     year = {2021},
     volume = 15,
     note = {* Equal Contribution},
-    selected={true},
     image={icwsm.png},
     html={https://ojs.aaai.org/index.php/ICWSM/article/view/18088},
     abstract={Social media platforms are already engaged in leveraging existing online socio-technical systems to employ just-in-time interventions for suicide prevention to the public. These efforts primarily rely on self-reports of potential self-harm content that is reviewed by moderators. Most recently, platforms have employed automated models to identify self-harm content, but acknowledge that these automated models still struggle to understand the nuance of human language (e.g., sarcasm). By explicitly focusing on Twitter posts that could easily be misidentified by a model as expressing suicidal intent (i.e., they contain similar phrases such as ``wanting to die''), our work examines the temporal differences in historical expressions of general and emotional language prior to a clear expression of suicidal intent. Additionally, we analyze time-aware neural models that build on these language variants and factors in the historical, emotional spectrum of a user's tweeting activity. The strongest model achieves high (statistically significant) performance (macro F1=0.804, recall=0.813) to identify social media indicative of suicidal intent. Using three use cases of tweets with phrases common to suicidal intent, we qualitatively analyze and interpret how such models decided if suicidal intent was present and discuss how these analyses may be used to alleviate the burden on human moderators within the known constraints of how moderation is performed (e.g., no access to the user's timeline). Finally, we discuss the ethical implications of such data-driven models and inferences about suicidal intent from social media. Content warning: this article discusses self-harm and suicide.}
@@ -71,7 +95,6 @@
     publisher = {Association for Computational Linguistics},
     series = {EACL '21},
     note = {* Equal Contribution},
-    selected={true},
     code={https://github.com/midas-research/phase-eacl},
     image={eacl21.png},
     abstract={Recent psychological studies indicate that individuals exhibiting suicidal ideation increasingly turn to social media rather than mental health practitioners. Contextualizing the buildup of such ideation is critical for the identification of users at risk. In this work, we focus on identifying suicidal intent in tweets by augmenting linguistic models with emotional phases modeled from users’ historical context.We propose PHASE, a time-and phase-aware framework that adaptively learns features from a user’s historical emotional spectrum on Twitter for preliminary screening of suicidal risk. Building on clinical studies, PHASE learns phase-like progressions in users’ historical Plutchik-wheel-based emotions to contextualize suicidal intent. While outperforming state-of-the-art methods, we show the utility of temporal and phase-based emotional contextual cues for suicide ideation detection. We further discuss practical and ethical considerations.},
