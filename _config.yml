@@ -8,7 +8,7 @@ middle_name:
 last_name: Joshi
 email: josharshit@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Likes to talk about Machine Learning and NLP.
+  Research Fellow at Microsoft Research. Likes to talk about Neurosymbolic techniques for code and other domains.s
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -57,7 +57,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Simply drop me a mail: josharshit [at] gmail [dot] com!
+  Drop me a mail: josharshit [at] gmail [dot] com!
 
 google_analytics: UA-113902531-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID

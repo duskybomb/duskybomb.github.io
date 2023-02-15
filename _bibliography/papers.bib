@@ -1,14 +1,27 @@
 ---
 ---
 
-@inproceedings{joshi-etal-2022-ring,
+@article{joshi2023flame,
+  title={FLAME: A small language model for spreadsheet formulas},
+  author={Joshi, Harshit and Ebenezer, Abishai and Cambronero, Jos{\'e} and Gulwani, Sumit and Kanade, Aditya and Le, Vu and Radi{\v{c}}ek, Ivan and Verbruggen, Gust},
+  journal={arXiv preprint arXiv:2301.13779},
+  selected={true},
+  year={2023},
+  image={flame_intro.png},
+  html={https://arxiv.org/abs/2301.13779},
+  conference={Under Submission},
+  abstract={The widespread use of spreadsheet environments by billions of users presents a unique opportunity for formula-authoring assistance. Although large language models, such as Codex, can assist in general-purpose languages, they are expensive to train and challenging to deploy due to their large model sizes (up to billions of parameters). Moreover, they require hundreds of gigabytes of training data. We present FLAME, a T5-based model trained on Excel formulas that leverages domain insights to achieve competitive performance with a substantially smaller model (60M parameters) and two orders of magnitude less training data. We curate a training dataset using sketch deduplication, introduce an Excel-specific formula tokenizer for our model, and use domain-specific versions of masked span prediction and noisy auto-encoding as pretraining objectives. We evaluate FLAME on formula repair, formula auto-completion, and a novel task called syntax reconstruction. FLAME (60M) can outperform much larger models, such as Codex-Davinci (175B), Codex-Cushman (12B), and CodeT5 (220M), in 6 out of 10 settings.}
+}
+
+@article{joshi-etal-2022-ring,
   html = {https://arxiv.org/abs/2208.11640},
   author = {Joshi, Harshit and Cambronero, José and Gulwani, Sumit and Le, Vu and Radicek, Ivan and Verbruggen, Gust},
   title = {Repair Is Nearly Generation: Multilingual Program Repair with LLMs},
-  booktitle={To be presented at AAAI 2023, Arxiv},
+  journal={arXiv preprint (To be presented at AAAI 2023) arXiv:2208.11640},
   year = {2022},
   selected = {true},
   image={ring.png},
+  conference={AAAI '23},
   abstract={Most programmers make mistakes when writing code. Some of these mistakes are small and require few edits to the original program - a class of errors recently termed last mile mistakes. These errors break the flow for experienced developers and can stump novice programmers. Existing automated repair techniques targeting this class of errors are domain-specific and do not easily carry over to new domains. Transferring symbolic approaches requires substantial engineering and neural approaches require data and retraining. We introduce RING, a multilingual repair engine powered by a large language model trained on code (LLMC) such as Codex. Such a multilingual engine enables a flipped model for programming assistance, one where the programmer writes code and the AI assistance suggests fixes, compared to traditional code suggestion technology. Taking inspiration from the way programmers manually fix bugs, we show that a prompt-based strategy that conceptualizes repair as localization, transformation, and candidate ranking, can successfully repair programs in multiple domains with minimal effort. We present the first results for such a multilingual repair engine by evaluating on 6 different domains and comparing performance to domain-specific repair engines. We show that RING can outperform domain-specific repair engines in 3 of these domains. We also identify directions for future research using LLMCs for multilingual repair.}
 }
 
@@ -24,6 +37,7 @@
     selected={true},
     image={oopsla22.png},
     html={https://arxiv.org/abs/2207.11765},
+    conference={OOPSLA '22},
     abstract={Most users of low-code platforms, such as Excel and PowerApps, write programs in domain-specific formula languages to carry out nontrivial tasks. Often users can write most of the program they want, but introduce small mistakes that yield broken formulas. These mistakes, which can be both syntactic and semantic, are hard for low-code users to identify and fix, even though they can be resolved with just a few edits. We formalize the problem of producing such edits as the last-mile repair problem. To address this problem, we developed LaMirage, a LAst-MIle RepAir-engine GEnerator that combines symbolic and neural techniques to perform last-mile repair in low-code formula languages. LaMirage takes a grammar and a set of domain-specific constraints/rules, which jointly approximate the target language, and uses these to generate a repair engine that can fix formulas in that language. To tackle the challenges of localizing the errors and ranking the candidate repairs, LaMirage leverages neural techniques, whereas it relies on symbolic methods to generate candidate repairs. This combination allows LaMirage to find repairs that satisfy the provided grammar and constraints, and then pick the most natural repair. We compare LaMirage to state-of-the-art neural and symbolic approaches on 400 real Excel and PowerFx formulas, where LaMirage outperforms all baselines. We release these benchmarks to encourage subsequent work in low-code domains.}
 }
 
@@ -41,6 +55,7 @@
     volume = 15,
     note = {* Equal Contribution},
     image={icwsm.png},
+    conference={ICWSM '21},
     html={https://ojs.aaai.org/index.php/ICWSM/article/view/18088},
     abstract={Social media platforms are already engaged in leveraging existing online socio-technical systems to employ just-in-time interventions for suicide prevention to the public. These efforts primarily rely on self-reports of potential self-harm content that is reviewed by moderators. Most recently, platforms have employed automated models to identify self-harm content, but acknowledge that these automated models still struggle to understand the nuance of human language (e.g., sarcasm). By explicitly focusing on Twitter posts that could easily be misidentified by a model as expressing suicidal intent (i.e., they contain similar phrases such as ``wanting to die''), our work examines the temporal differences in historical expressions of general and emotional language prior to a clear expression of suicidal intent. Additionally, we analyze time-aware neural models that build on these language variants and factors in the historical, emotional spectrum of a user's tweeting activity. The strongest model achieves high (statistically significant) performance (macro F1=0.804, recall=0.813) to identify social media indicative of suicidal intent. Using three use cases of tweets with phrases common to suicidal intent, we qualitatively analyze and interpret how such models decided if suicidal intent was present and discuss how these analyses may be used to alleviate the burden on human moderators within the known constraints of how moderation is performed (e.g., no access to the user's timeline). Finally, we discuss the ethical implications of such data-driven models and inferences about suicidal intent from social media. Content warning: this article discusses self-harm and suicide.}
 }
@@ -59,8 +74,8 @@
     publisher = {Association for Computational Linguistics},
     series = {NAACL-HLT '21},
     note = {* Equal Contribution},
-    selected={true},
     image={naacl.jpeg},
+    conference={NAACL-HLT '21},
     code={https://github.com/caisa-lab/hyper-sos-naacl},
     html={https://www.aclweb.org/anthology/2021.naacl-main.176/},
     abstract={Recent psychological studies indicate that individuals exhibiting suicidal ideation increasingly turn to social media rather than mental health practitioners. Personally contextualizing the buildup of such ideation is critical for accurate identification of users at risk. In this work, we propose a framework jointly leveraging a user’s emotional history and social information from a user’s neighborhood in a network to contextualize the interpretation of the latest tweet of a user on Twitter. Reflecting upon the scale-free nature of social network relationships, we propose the use of Hyperbolic Graph Convolution Networks, in combination with the Hawkes process to learn the historical emotional spectrum of a user in a time-sensitive manner. Our system significantly outperforms state-of-the-art methods on this task, showing the benefits of both socially and personally contextualized representations.}
@@ -77,6 +92,7 @@
     doi = {10.1093/jamia/ocab031},
     html = {https://pubmed.ncbi.nlm.nih.gov/33779728/},
     note = {ocab031},
+    conference={JAMIA '21},
     eprint = {https://academic.oup.com/jamia/advance-article-pdf/doi/10.1093/jamia/ocab031/36786366/ocab031.pdf},
     image={jamia_loss.png}
 }
@@ -94,6 +110,7 @@
     address = {Online (Kiev)},
     publisher = {Association for Computational Linguistics},
     series = {EACL '21},
+    conference={EACL '21},
     note = {* Equal Contribution},
     code={https://github.com/midas-research/phase-eacl},
     image={eacl21.png},
@@ -118,6 +135,7 @@ location = {Virtual Event, Israel},
 series = {WSDM '21},
 code={https://github.com/midas-research/sismo-wsdm},
 image={wsdm.png},
+conference={WSDM '21},
 html={https://dl.acm.org/doi/10.1145/3437963.3441805},
 abstract={The rising ubiquity of social media presents a platform for individuals to express suicide ideation, instead of traditional, formal clinical settings. While neural methods for assessing suicide risk on social media have shown promise, a crippling limitation of existing solutions is that they ignore the inherent ordinal nature across fine-grain levels of suicide risk. To this end, we reformulate suicide risk assessment as an Ordinal Regression problem, over the Columbia-Suicide Severity Scale. We propose SISMO, a hierarchical attention model optimized to factor in the graded nature of increasing suicide risk levels, through soft probability distribution since not all wrong risk-levels are equally wrong. We establish the face value of SISMO for preliminary suicide risk assessment on real-world Reddit data annotated by clinical experts. We conclude by discussing the empirical, practical, and ethical considerations pertaining to SISMO ina larger picture, as a human-in-the-loop framework.}
 }
@@ -141,6 +159,7 @@ abstract={The rising ubiquity of social media presents a platform for individual
     code={https://github.com/midas-research/STATENet_Time_Aware_Suicide_Assessment},
     poster={https://drive.google.com/file/d/1qfW-CYjmYoVa7IUBXPVsNxRFAI-5OIHQ/view},
     image={emnlp20.jpg},
+    conference={EMNLP '20},
     abstract = {Social media’s ubiquity fosters a space for users to exhibit suicidal thoughts outside of traditional clinical settings. Understanding the build-up of such ideation is critical for the identification of at-risk users and suicide prevention. Suicide ideation is often linked to a history of mental depression. The emotional spectrum of a user’s historical activity on social media can be indicative of their mental state over time. In this work, we focus on identifying suicidal intent in English tweets by augmenting linguistic models with historical context. We propose STATENet, a time-aware transformer based model for preliminary screening of suicidal risk on social media. STATENet outperforms competitive methods, demonstrating the utility of emotional and temporal contextual cues for suicide risk assessment. We discuss the empirical, qualitative, practical, and ethical aspects of STATENet for suicide ideation detection.},
     slides={https://slideslive.com/38939133/a-timeaware-transformer-based-model-for-suicide-ideation-detection-on-social-media}
 }
