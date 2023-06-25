@@ -8,7 +8,7 @@ middle_name:
 last_name: Joshi
 email: josharshit@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Fellow at Microsoft Research. Likes to talk about Neurosymbolic techniques for code and other domains.
+  Research Fellow at Microsoft Research. Likes to talk about Neurosymbolic techniques for taming the powers of LLMs.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -161,7 +161,7 @@ enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
-enable_darkmode:            true
+enable_darkmode:            false
 show_social_icons:          true
 
 # -----------------------------------------------------------------------------

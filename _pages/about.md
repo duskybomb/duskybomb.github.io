@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Research Fellow (Pre-Doctoral) at Microsoft Research with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/){:target="\_blank"} group, where I am working on Last-Mile Repair in low-code applications (Excel and Powerapps), advised by [Dr. José Cambronero](https://www.josecambronero.com/) and [Dr. Vu Le](https://www.vuminhle.com/).
+I'm a Research Fellow at Microsoft Research with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/){:target="\_blank"} group, where I work on Program Repair and Formula Intelligence in Excel spreadsheets, advised by [Dr. José Cambronero](https://www.josecambronero.com/) and [Dr. Vu Le](https://www.vuminhle.com/).
 I completed my Bachelors in IT and Mathematics from Cluster Innovation Centre, [University of Delhi](https://du.ac.in){:target="\_blank"} in 2021.
 I'm broadly interested in working on **Neuro-symbolic methods**, **Natural Language Processing** and it's applications in **Program Synthesis** and **Computational Social Science**. 
 
