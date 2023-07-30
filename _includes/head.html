@@ -56,18 +56,6 @@
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
-{% if site.enable_google_analytics %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}');
-</script>
-{% endif %}
-
 {% if site.enable_panelbear_analytics %}
 <!-- Panelbear Analytics - We respect your privacy -->
 <script async src="https://cdn.panelbear.com/analytics.js?site={{site.panelbear_analytics}}"></script>
@@ -77,4 +65,12 @@
 </script>
 {% endif %}
 
-<script data-goatcounter="https://duskybomb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHJ6H2DLJS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-JHJ6H2DLJS');
+</script>
