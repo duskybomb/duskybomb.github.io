@@ -2,21 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Harshit Joshi # the website title (if blank, full name will be used instead)
+title: Harshit Joshi - Stanford University, Microsoft Research # the website title (if blank, full name will be used instead)
 first_name: Harshit
 middle_name:
 last_name: Joshi
 email: josharshit@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Fellow at Microsoft Research. Likes to talk about Neurosymbolic techniques for taming the powers of LLMs.
+  Incoming CS PhD Student at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic toolings to tame the powers of LLMs.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
+keywords: Harshit, Harshit Joshi, researcher, LLMs, Stanford University, Harshit Google Scholar
 url: https://harshitjoshi.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+last_updated: fakse # set to true if you want to display last updated in the footer
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -46,7 +47,7 @@ github_username: duskybomb # your GitHub user name
 twitter_username: duskybomb # your Twitter handle
 linkedin_username: harshitjos # your LinkedIn user name
 scholar_userid: NFZwEmUAAAAJ&hl=en # your Google Scholar ID
-orcid_id: # 
+orcid_id: #
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -66,7 +67,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: log  # your blog must have a name for it to show up in the nav bar
+blog_name: log # your blog must have a name for it to show up in the nav bar
 blog_description: Bits that I want to share with future Harshit
 permalink: /blog/:year/:title/
 
@@ -100,11 +101,11 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: github # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -112,7 +113,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude: [vendor]
 
 # Plug-ins
@@ -132,7 +133,6 @@ plugins:
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Joshi
   first_name: ["Harshit", "Harshit*"]
 
@@ -156,13 +156,13 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
+enable_google_analytics: false
 enable_panelbear_analytics: false
-enable_mansory:             true
-enable_math:                true
-enable_tooltips:            false
-enable_darkmode:            false
-show_social_icons:          true
+enable_mansory: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: false
+show_social_icons: true
 
 # -----------------------------------------------------------------------------
 # Library versions

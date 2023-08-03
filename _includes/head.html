@@ -2,10 +2,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>{% if site.title == blank %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }} {{
+<title>{% if site.title != blank %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }} {{
   site.last_name }}{% endif %}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
 <meta http-equiv="content-language" content="en">
+<meta name="keywords" content="{{ site.keywords }}">
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
