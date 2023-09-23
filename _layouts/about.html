@@ -38,6 +38,11 @@ layout: default
     {% include selected_papers.html %}
     {% endif %}
 
+    {% if page.affiliations %}
+    {% include affiliations.html %}
+    {% endif %}
+
+
     {% if page.social %}
     <div class="social">
       {% include social.html %}

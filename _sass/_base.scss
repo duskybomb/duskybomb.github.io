@@ -330,6 +330,41 @@ footer.sticky-bottom {
 
 // Projects
 
+.affiliations {
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); // Switch to 2 columns on screens narrower than 768px
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; // Switch to 1 column on screens narrower than 480px
+  }
+
+  .grid-item {
+    width: 200px;
+    align-items: center;
+    margin-bottom: 10px;
+
+    a {
+      color: black;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+
+    .card {
+      width: 100%;
+      box-shadow: none;
+    }
+  }
+}
+
 .projects {
   .grid-item {
     width: 200px;

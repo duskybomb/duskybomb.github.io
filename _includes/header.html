@@ -25,7 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              About
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -35,7 +35,7 @@
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
-              blog
+              Blog
               {% if page.title == "blog" %}
               <span class="sr-only">(current)</span>
               {% endif %}
@@ -59,13 +59,13 @@
           <!-- CV -->
           <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
             <a class="nav-link" href="{{ '/assets/pdf/Harshit_Joshi_CV.pdf' | relative_url }}", target="_blank">
-              cv
+              CV
             </a>
           </li>
           <!-- Resume -->
           <li class="nav-item {% if page.url contains 'cv' %}active{% endif %}">
             <a class="nav-link" href="{{ '/assets/pdf/Harshit_Joshi_Resume.pdf' | relative_url }}", target="_blank">
-              resume
+              Resume
             </a>
           </li>
           {% if site.enable_darkmode %}

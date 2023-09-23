@@ -8,15 +8,15 @@ middle_name:
 last_name: Joshi
 email: josharshit@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Incoming CS PhD Student at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic toolings to tame the powers of LLMs.
+  CS PhD Student at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic toolings to tame the powers of LLMs.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-keywords: Harshit, Harshit Joshi, researcher, LLMs, Stanford University, Harshit Google Scholar
+keywords: Harshit, Harshit Joshi, researcher, LLMs, Stanford University, Google Scholar
 url: https://harshitjoshi.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: fakse # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -58,7 +58,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Drop me a mail: josharshit [at] gmail [dot] com!
+  Drop a mail: josharshit [at] gmail [dot] com!
 
 google_analytics: UA-113902531-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
