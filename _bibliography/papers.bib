@@ -4,12 +4,12 @@
 @article{joshi2023flame,
   title={FLAME: A small language model for spreadsheet formulas},
   author={Joshi, Harshit and Ebenezer, Abishai and Cambronero, Jos{\'e} and Gulwani, Sumit and Kanade, Aditya and Le, Vu and Radi{\v{c}}ek, Ivan and Verbruggen, Gust},
-  journal={arXiv preprint arXiv:2301.13779},
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence, 38},
   selected={true},
   year={2023},
   image={flame_intro.png},
   html={https://arxiv.org/abs/2301.13779},
-  conference={Under Submission},
+  conference={AAAI '24},
   abstract={The widespread use of spreadsheet environments by billions of users presents a unique opportunity for formula-authoring assistance. Although large language models, such as Codex, can assist in general-purpose languages, they are expensive to train and challenging to deploy due to their large model sizes (up to billions of parameters). Moreover, they require hundreds of gigabytes of training data. We present FLAME, a T5-based model trained on Excel formulas that leverages domain insights to achieve competitive performance with a substantially smaller model (60M parameters) and two orders of magnitude less training data. We curate a training dataset using sketch deduplication, introduce an Excel-specific formula tokenizer for our model, and use domain-specific versions of masked span prediction and noisy auto-encoding as pretraining objectives. We evaluate FLAME on formula repair, formula auto-completion, and a novel task called syntax reconstruction. FLAME (60M) can outperform much larger models, such as Codex-Davinci (175B), Codex-Cushman (12B), and CodeT5 (220M), in 6 out of 10 settings.}
 }
 
