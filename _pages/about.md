@@ -16,6 +16,7 @@ affiliations: true
 ---
 
 I'm a first-year CS PhD student at **Stanford University** with the **StanfordNLP** group.
+Currently, I am rotating with Prof. Monica Lam and working on conversational assistants.
 I completed my Bachelors in IT and Mathematics from Cluster Innovation Centre, [University of Delhi](https://du.ac.in){:target="\_blank"} in 2021.
 I'm broadly interested in working on **Neuro-symbolic methods**, **Natural Language Processing** and it's applications in **Program Synthesis** and **Computational Social Science**.
 
