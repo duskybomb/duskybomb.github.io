@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Harshit Joshi - Stanford University, Microsoft Research # the website title (if blank, full name will be used instead)
+title: Harshit Joshi - Stanford University # the website title (if blank, full name will be used instead)
 first_name: Harshit
 middle_name:
 last_name: Joshi
 email: josharshit@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  CS PhD Student at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic toolings to tame the powers of LLMs.
+  CS PhD Student at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic systems to tame the powers of LLMs.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
