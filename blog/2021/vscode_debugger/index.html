@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Harshit Joshi - Stanford University PhD Researcher | Harshit Joshi - Stanford University PhD Researcher</title>
+<title>Harshit Joshi - Stanford University PhD Researcher | Configuring Visual Studio Code Debugger for Python Projects (Module)</title>
 <meta name="description" content="CS PhD Student (Graduate Researcher) at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic systems to tame the powers of LLMs and make them usuable in the wild.
 ">
 <meta http-equiv="content-language" content="en">
@@ -18,8 +18,8 @@
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="Harshit Joshi - Stanford University PhD Researcher" />
-<meta property="og:url" content="https://harshitjoshi.com/blog/index.html" />
-<meta property="og:description" content="Harshit Joshi - Stanford University PhD Researcher" />
+<meta property="og:url" content="https://harshitjoshi.com/blog/2021/vscode_debugger/" />
+<meta property="og:description" content="Configuring Visual Studio Code Debugger for Python Projects (Module)" />
 <meta property="og:image"
   content="https://harshitjoshi.com/assets/img/prof_pic.jpg" />
 <meta name="thumbnail"
@@ -50,7 +50,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/vscode_debugger/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -178,32 +178,114 @@
   <!-- Content -->
 
   <div class="container mt-5">
-    <div class="post">
-
-  <div class="header-bar">
-    <h1>log</h1>
-    <h2>Bits that I want to share with future Harshit</h2>
-  </div>
-
-
-  <ul class="post-list">
     
-      <li>
-        <h3><a class="post-title" href="/blog/2022/undergrad_at_cic/">My Undergrad at Cluster Innovation Center</a></h3>
-        <p class="post-meta">May 1, 2022</p>
-        <p>I am about to complete a year since I graduated. I wanted to reflect on my time at Cluster Innovation Center (CIC) and what I have learned from one of the most fruitful phases of my life.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/vscode_debugger/">Configuring Visual Studio Code Debugger for Python Projects (Module)</a></h3>
-        <p class="post-meta">September 26, 2021</p>
-        <p>important vs code thing that I keep forgetting</p>
-      </li>
-    
-  </ul>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Configuring Visual Studio Code Debugger for Python Projects (Module)</h1>
+    <p class="post-meta">September 26, 2021</p>
+  </header>
+
+  <article class="post-content">
+    <p>A year back, I switched to VS Code from PyCharm as my daily IDE. PyCharm is highly optimized and feature-rich for Python projects, but it comes at a cost. Initially, I was using the education edition. But now that I had to work on something which could help me pay my bills, I was hunting for alternatives.</p>
+
+<p>Tbh, there weren’t many choices, and vs code lacked out-of-the-box support for python. 
+I tried Vim for a month but soon realized that it wouldn’t cut it for me.
+Although Vim is absolutely incredible, I had a hard time working on big projects with multitudes of files and configurations.
+The learning curve was just too steep for me.
+However, I loved Vim bindings.
+Now, even my gnome shortcuts are Vim-based (at the time of writing, I am using Zorin OS).</p>
+
+<p>Owing to peer pressure, I started using vscode and haven’t looked back since (I will tell you the reasons some other day).
+I use Vim bindings for navigation and simple text manipulation but use <code class="highlighter-rouge">Ctrl</code> with native vs code shortcuts.</p>
+
+<p>Cutting the story short, I had to debug a python library with a command-line interface (e.g., <a href="https://github.com/Breakthrough/PySceneDetect">pySceneDetect</a>).
+However, I had absolutely no idea what was that weird <code class="highlighter-rouge">launch.json</code> file. What settings do I need to use? There were just too many things going on.
+But after a lot of googling, searching up, and trying out different settings, I finally found my treasure.</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="code"><pre><span class="p">{</span><span class="w">
+    </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.2.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"configurations"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;setting-name&gt;"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"request"</span><span class="p">:</span><span class="w"> </span><span class="s2">"launch"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"program"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;path-to-entry-point&gt;"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"console"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integratedTerminal"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"cwd"</span><span class="p">:</span><span class="w"> </span><span class="s2">"&lt;path-from-where-you-want-to-execute-the-file&gt;"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="s2">"&lt;command-line-arguments-as-list&gt;"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"&lt;arg1&gt;"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"&lt;arg2&gt;"</span><span class="w">
+            </span><span class="p">]</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>A reason why I am putting this out there is that I don’t remember this configuration. When I switch my system, then I have to spend another 2 hours looking up for it. So, Harshit, thank me later when you read this!</p>
+
+<p>Here is one of the most common configurations I use:</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre><span class="p">{</span><span class="w">
+    </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.2.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"configurations"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"package-debugger"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"python"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"request"</span><span class="p">:</span><span class="w"> </span><span class="s2">"launch"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"program"</span><span class="p">:</span><span class="w"> </span><span class="s2">"${workspaceRoot}/package/main.py"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"console"</span><span class="p">:</span><span class="w"> </span><span class="s2">"integratedTerminal"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"cwd"</span><span class="p">:</span><span class="w"> </span><span class="s2">"${workspaceRoot}"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"args"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+                </span><span class="s2">"--config"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"config-you-df.json"</span><span class="p">,</span><span class="w">
+            </span><span class="p">]</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+
+  </article>
 
   
-
 
 </div>
 
