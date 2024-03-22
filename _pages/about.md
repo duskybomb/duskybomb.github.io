@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: josharshit [at] gmail [dot] com
+description: CS PhD student at Stanford OVAL lab, StanfordNLP -- advised by Prof. Monica Lam
 
 profile:
   align: right

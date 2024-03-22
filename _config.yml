@@ -6,7 +6,7 @@ title: Harshit Joshi - Stanford University PhD Researcher # the website title (i
 first_name: Harshit
 middle_name:
 last_name: Joshi
-email: josharshit@gmail.com
+email: harshitj@cs.stanford.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   CS PhD Student (Graduate Researcher) at Stanford University. Previously, Research Fellow at Microsoft Research. Building Neurosymbolic systems to tame the powers of LLMs and make them usuable in the wild.
 footer_text: >
@@ -44,7 +44,7 @@ thumbnail: https://harshitjoshi.com/assets/img/prof_pic.jpg
 # -----------------------------------------------------------------------------
 
 github_username: duskybomb # your GitHub user name
-twitter_username: duskybomb # your Twitter handle
+twitter_username: harshitj__ # your Twitter handle
 linkedin_username: harshitjos # your LinkedIn user name
 scholar_userid: NFZwEmUAAAAJ&hl=en # your Google Scholar ID
 orcid_id: #
@@ -58,7 +58,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Drop a mail: josharshit [at] gmail [dot] com!
+  Drop a mail: harshitj [at] cs [dot] stanford [dot] edu!
 
 google_analytics: UA-113902531-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
