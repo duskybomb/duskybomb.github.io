@@ -9,13 +9,53 @@
 
 <url>
   <loc>https://harshitjoshi.com/</loc>
-  <lastmod>2024-10-16T09:46:29+00:00</lastmod>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://harshitjoshi.com/assets/harshit_joshi_cv.pdf</loc>
-  <lastmod>2024-10-16T09:46:29+00:00</lastmod>
+  <loc>https://harshitjoshi.com/fun/</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/blogs/</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/assets/harshit_joshi_cv.pdf</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/blogs/index.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/fun/index.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/blogs/undergrad_at_cic.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/fun/others.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/fun/readings.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://harshitjoshi.com/index.html</loc>
+  <lastmod>2024-12-02T16:43:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
