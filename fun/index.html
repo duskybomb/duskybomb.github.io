@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harshit Joshi: CS PhD at Stanford with the StanfordNLP group and OVAL lab, advised by Monica Lam. Currently interested in creating useful systems that assist users to leverage capabilities of Large Language Models for gathering and creating knowledge.">
+    <meta http-equiv="content-language" content="en">
+    <meta name="keywords" content="Researcher, Harshit, Harshit Joshi, LLMs">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <title>Harshit Joshi: CS PhD at Stanford</title>
+
+    
+    <!-- Open Graph -->
+
+    <meta property="og:site_name" content="Harshit Joshi: CS PhD at Stanford with the StanfordNLP group and OVAL lab, advised by Monica Lam. Currently interested in creating useful systems that assist users to leverage capabilities of Large Language Models for gathering and creating knowledge."/>
+    <meta property="og:type" content="object" />
+    <meta property="og:title" content="Harshit Joshi - Stanford University PhD Researcher" />
+    <meta property="og:url" content="https://harshitjoshi.com/" />
+    <meta property="og:description" content="about" />
+    <meta property="og:image" content="https://harshitjoshi.com/assets/harshit.jpg" />
+    <meta name="thumbnail"content="https://harshitjoshi.com/assets/harshit.jpg" />
+
+    
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHJ6H2DLJS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-JHJ6H2DLJS');
+    </script>
+
+
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="../assets/harshit.jpg" alt="Harshit Joshi Photo">
+            </div>
+            <div class="header-info">
+                <h1>Harshit Joshi</h1>
+                <p>Stanford, CA</p>
+                <p><a href="https://x.com/harshitj__"> twitter </a> | <a href="https://scholar.google.com/citations?user=NFZwEmUAAAAJ&hl=en"> google scholar </a> | <a href="https://www.linkedin.com/in/harshitjos/">linkedin</a> | <a href="https://github.com/duskybomb"> github</a></p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html#about">about</a></li>
+                <li><a href="../index.html#publications">publications</a></li>
+                <li><a href="../index.html#news">news</a></li>
+                <li><a href="../fun/">fun</a></li>
+                <li><a href="../assets/harshit_joshi_cv.pdf">cv</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="container">
+            <div class="highlights">
+                <div class="highlight-section">
+                    <h3>📚 Recent Reads</h3>
+                    <ul id="recent-reads">
+                        <li>Loading...</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-section">
+                    <h3>✍️ Latest Posts</h3>
+                    <ul id="latest-posts">
+                        <li>Loading...</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-section">
+                    <h3>🎮 Fun Stuff</h3>
+                    <ul id="fun-stuff">
+                        <li>Loading...</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Harshit Joshi | All Rights Reserved | Visca el Barça ❤️ 💙</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to handle fetching and updating content
+        async function fetchAndUpdateSection(sourceFile, targetId, sectionIds) {
+            try {
+                const response = await fetch(sourceFile);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const html = await response.text();
+                
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                
+                const content = sectionIds.map(id => {
+                    const section = doc.querySelector(`#${id}`);
+                    if (!section) return null;
+                    const h3 = section.querySelector('h3');
+                    const link = h3.querySelector('a');
+                    return {
+                        text: h3.textContent,
+                        href: link ? link.getAttribute('href') : null
+                    };
+                }).filter(item => item !== null);
+
+                document.querySelector(`#${targetId}`).innerHTML = `
+                    ${content.map(item => 
+                        item.href ? 
+                        `<li><a href="${item.href}">${item.text}</a></li>` :
+                        `<li>${item.text}</li>`
+                    ).join('')}
+                    <li><a href="${sourceFile}#all">View All ${targetId === 'recent-reads' ? 'Books' : 
+                                                             targetId === 'latest-posts' ? 'Posts' : 
+                                                             'Activities'} →</a></li>
+                `;
+            } catch (error) {
+                console.error(`Error fetching ${sourceFile}:`, error);
+                document.querySelector(`#${targetId}`).innerHTML = `
+                    <li>Unable to load content</li>
+                    <li><a href="${sourceFile}">View All →</a></li>
+                `;
+            }
+        }
+
+        // Fetch content for all sections
+        fetchAndUpdateSection('readings.html', 'recent-reads', ['latest']);
+        fetchAndUpdateSection('../blogs/index.html', 'latest-posts', ['latest']);
+        fetchAndUpdateSection('others.html', 'fun-stuff', ['games', 'travel', 'interests']);
+    </script>
+</body>
+</html>

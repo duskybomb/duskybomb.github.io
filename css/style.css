@@ -153,3 +153,17 @@ a:hover {
 .bright {
     color: #007ac1;
 }
+
+.book-technical {
+    color: #007ac1;
+    font-weight: bold;
+}
+
+#blogs ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+#blogs p {
+    margin-bottom: 10px;
+}

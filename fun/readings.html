@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harshit Joshi's Reading List">
+    <meta http-equiv="content-language" content="en">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
+    <title>Reading List | Harshit Joshi</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <div class="header-info">
+                <h1>Harshit's Reading List</h1>
+                <p><a href="index.html">← Back</a></p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html#about">about</a></li>
+                <li><a href="../index.html#publications">publications</a></li>
+                <li><a href="../index.html#news">news</a></li>
+                <li><a href="index.html">fun</a></li>
+                <li><a href="../assets/harshit_joshi_cv.pdf">cv</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="latest" class="container">
+            <h2>Currently Reading</h2>
+            <h3>Farenheit 451 by Ray Bradbury</h3>
+            <p>A dystopian science fiction novel that explores a future society where books are banned and burned.</p>
+        </section>
+
+        <section id="all" class="container">
+            <h2>Selected Books</h2>
+            <div class="book-list">
+                <div class="book">
+                    <h3> Randomly Ordered </h3>
+                    <ul id="book-list">
+                        <li>Tomorrow, and Tomorrow, and Tomorrow - Gabrielle Zevin </li>
+                        <li>All About Love - Bell Hooks</li>
+                        <li>The White Tiger - Aravind Adiga</li>
+                        <li>Shoe Dog - Phil Knight</li>
+                        <li>Slaughterhouse-Five - Kurt Vonnegut</li>
+                        <li>Norwegian Wood - Haruki Murakami</li>
+                        <li>The Bell Jar - Sylvia Plath</li>
+                        <li>The Art of Intrusion - Kevin D. Mitnick</li>
+                        <li>Letters to a Young Poet - Rainer Maria Rilke</li>
+                        <li>Surely You're Joking, Mr. Feynman! - Richard P. Feynman</li>
+                        <li>The Time Keeper - Mitch Albom</li>
+                        <li>Kafka on the Shore - Haruki Murakami</li>
+                        <li>The Mixer - Michael Cox</li>
+                        <li>The Kite Runner - Khaled Hosseini</li>
+                        <li class="book-technical">Deep Learning - Ian Goodfellow</li>
+                        <li class="book-technical">Clean Code - Robert C. Martin</li>
+                        <li class="book-technical">Neurosymbolic Programming - Swarat Chaudhuri</li>
+                        <li class="book-technical">Compilers: Principles, Techniques, and Tools - Aho, Lam, Sethi, Ullman</li>
+                        <li class="book-technical">Design Patterns - Gamma, Helm, Johnson, Vlissides</li>
+                    </ul>
+                </div>
+                <script>
+                    const list = document.getElementById('book-list');
+                    const items = Array.from(list.children);
+                    items.sort(() => Math.random() - 0.5);
+                    list.innerHTML = '';
+                    items.forEach(item => list.appendChild(item));
+                </script>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Harshit Joshi | All Rights Reserved | Visca el Barça ❤️ 💙</p>
+        </div>
+    </footer>
+</body>
+</html>
