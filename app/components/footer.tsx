@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://scholar.google.com/citations?user=NFZwEmUAAAAJ&hl=en"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">Google Scholar</p>
+            <p className="ml-2 h-7">google scholar</p>
           </a>
         </li>
         <li>
