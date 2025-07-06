@@ -7,7 +7,7 @@ export function Publications({ showAll = false }: { showAll?: boolean }) {
 
   return (
     <div>
-      <h3 className="mb-4 text-xl font-semibold tracking-tighter">Publications</h3>
+      {!showAll && <h3 className="mb-4 text-xl font-semibold tracking-tighter">Publications</h3>}
       {allPubs
         .sort((a, b) => {
           if (

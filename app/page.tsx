@@ -20,6 +20,17 @@ export default function Page() {
               className="rounded-full border-2 border-neutral-200 dark:border-neutral-700 shadow-lg"
               priority
             />
+            <p className="text-sm text-neutral-600 dark:text-neutral-400 w-40 mt-4 text-center">
+              Stanford University
+            </p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400 w-40 mt-2 text-center">
+              Stanford, CA, USA
+            </p>
+            <center>
+              <p className="text-sm text-neutral-600 dark:text-neutral-400 w-40 mt-2">
+                Email: <a className="bright">harshitj at stanford dot edu</a>
+              </p>
+            </center>
           </div>
         </div>
         
@@ -45,11 +56,12 @@ export default function Page() {
               <a href="https://www.supedio.com/" className="bright">
                 Supedio GmbH
               </a>{' '}
-              working on Master Data Management, Medical Entity Resolution and Text Extraction from PDFs. I have interned with the research team at DRDO, Govt. of India, where I worked on an Image Segmentation task in a simulated Gazebo environment. I spent a summer at Chennai Mathematical Institute as a Mathematical Finance Summer Scholar, working on sliding-window approaches for finding abnormal rate of returns. In the summer of 2018, I was a student developer with Google Summer of Code.
+              working on Master Data Management, Medical Entity Resolution and Text Extraction from PDFs. 
+              I have interned with the research team at <a href="https://www.drdo.gov.in/drdo/" className="bright">DRDO, Govt. of India</a>, where I worked on an Image Segmentation task in a simulated Gazebo environment. I spent a summer at <a href="https://www.cmi.ac.in/" className="bright">Chennai Mathematical Institute</a> as a Mathematical Finance Summer Scholar, working on sliding-window approaches for finding abnormal rate of returns. In the summer of 2018, I was a student developer with <a href="https://summerofcode.withgoogle.com/" className="bright">Google Summer of Code</a>.
             </>
           </ExpandableText>
           <p className="mb-4">
-            If you're an undergrad/master's student at Stanford interested in research, please reach out! I'm more than happy to chat about opportunities here! (email address at the bottom of the page)
+            If you're an undergrad/master's student at Stanford interested in research, please reach out! I'm more than happy to chat about opportunities here!
           </p>
         </div>
       </div>
@@ -59,11 +71,6 @@ export default function Page() {
         <News />
         <Publications />
         <BlogPosts />
-        <div className="mt-8">
-          <p className="text-sm text-neutral-600 dark:text-neutral-400">
-            Email: <a className="bright">harshitj at stanford dot edu</a>
-          </p>
-        </div>
       </div>
     </section>
   )

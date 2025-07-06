@@ -12,6 +12,13 @@ export type NewsItem = {
 export const newsData: NewsItem[] = [
   {
     metadata: {
+      title: 'Quoted in The Economist article "Can India be an AI winner?" discussing AI developments in India.',
+      publishedAt: '2025-06-12',
+      link: 'https://www.economist.com/asia/2025/06/12/can-india-be-an-ai-winner'
+    }
+  },
+  {
+    metadata: {
       title: 'Genie Worksheets is accepted to ACL 2025 (See you in Vienna!)',
       publishedAt: '2025-05-15',
     }

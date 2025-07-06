@@ -1,0 +1,295 @@
+{
+  "books": [
+    {
+      "id": 6,
+      "title": "Kafka on the Shore",
+      "author": "Haruki Murakami",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "October 2021",
+      "coverUrl": null,
+      "selected": true
+    },
+    {
+      "id": 9,
+      "title": "Shoe Dog: A Memoir by the Creator of Nike",
+      "author": "Phil Knight",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "July 2021",
+      "coverUrl": null,
+      "selected": true
+    },
+    {
+      "id": 10,
+      "title": "Norwegian Wood",
+      "author": "Haruki Murakami",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "July 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 11,
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "July 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 16,
+      "title": "The Mixer: The Story of Premier League Tactics, from Route One to False Nines",
+      "author": "Michael  Cox",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "July 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 21,
+      "title": "The Prophet",
+      "author": "Kahlil Gibran",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "February 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 2,
+      "title": "All About Love: New Visions",
+      "author": "bell hooks",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2021",
+      "coverUrl": null,
+      "selected": true
+    },
+    {
+      "id": 3,
+      "title": "The White Tiger",
+      "author": "Aravind Adiga",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2022",
+      "coverUrl": null
+    },
+    {
+      "id": 4,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2022",
+      "coverUrl": null
+    },
+    {
+      "id": 7,
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "author": "Gabrielle Zevin",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2023",
+      "coverUrl": null
+    },
+    {
+      "id": 12,
+      "title": "The Art of Intrusion: The Real Stories Behind the Exploits of Hackers, Intruders and Deceivers",
+      "author": "Kevin D. Mitnick",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2021",
+      "coverUrl": null
+    },
+    {
+      "id": 13,
+      "title": "Letters to a Young Poet",
+      "author": "Rainer Maria Rilke",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2019",
+      "coverUrl": null
+    },
+    {
+      "id": 14,
+      "title": "Surely You`re Joking, Mr. Feynman!",
+      "author": "Richard P. Feynman",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2018",
+      "coverUrl": null
+    },
+    {
+      "id": 15,
+      "title": "The Time Keeper",
+      "author": "Mitch Albom",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2020",
+      "coverUrl": null
+    },
+    {
+      "id": 24,
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2013",
+      "coverUrl": null
+    },
+    {
+      "id": 26,
+      "title": "The Theory of Everything: The Origin and Fate of the Universe",
+      "author": "Stephen Hawking",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2015",
+      "coverUrl": null
+    },
+    {
+      "id": 27,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2014",
+      "coverUrl": null
+    },
+    {
+      "id": 30,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2015",
+      "coverUrl": null
+    },
+    {
+      "id": 32,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "rating": 5,
+      "review": "Absolutely loved this book! A must-read that left a lasting impression.",
+      "dateRead": "2017",
+      "coverUrl": null
+    },
+    {
+      "id": 20,
+      "title": "Homo Deus: A Brief History of Tomorrow",
+      "author": "Yuval Noah Harari",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "February 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 8,
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut Jr.",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "August 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 18,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "2016",
+      "coverUrl": null
+    },
+    {
+      "id": 23,
+      "title": "1984",
+      "author": "George Orwell",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "2017",
+      "coverUrl": null
+    },
+    {
+      "id": 25,
+      "title": "A Game of Thrones (A Song of Ice and Fire, #1)",
+      "author": "George R.R. Martin",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "2014",
+      "coverUrl": null
+    },
+    {
+      "id": 29,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "2016",
+      "coverUrl": null
+    },
+    {
+      "id": 31,
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "author": "Mark Manson",
+      "rating": 4,
+      "review": "Really enjoyed this one. Well written and engaging throughout.",
+      "dateRead": "2025",
+      "coverUrl": null
+    },
+    {
+      "id": 22,
+      "title": "Sita: Warrior of Mithila (Ram Chandra, #2)",
+      "author": "Amish Tripathi",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "November 2019",
+      "coverUrl": null
+    },
+    {
+      "id": 17,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "July 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 19,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "February 2021",
+      "coverUrl": null
+    },
+    {
+      "id": 1,
+      "title": "Zero to One: Notes on Startups, or How to Build the Future",
+      "author": "Peter Thiel",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "2025",
+      "coverUrl": null
+    },
+    {
+      "id": 5,
+      "title": "Rich Dad, Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "2019",
+      "coverUrl": null
+    },
+    {
+      "id": 28,
+      "title": "Scion of Ikshvaku (Ram Chandra, #1)",
+      "author": "Amish Tripathi",
+      "rating": 3,
+      "review": "A solid read with some interesting ideas and good moments.",
+      "dateRead": "2021",
+      "coverUrl": null
+    }
+  ]
+}

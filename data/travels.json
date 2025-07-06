@@ -1,0 +1,95 @@
+{
+  "travels": [
+    {
+      "id": 1,
+      "destination": "Sequoia National Park, California",
+      "region": "USA",
+      "date": "Fall 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 2,
+      "destination": "Miami, Florida",
+      "region": "USA",
+      "date": "Fall 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 3,
+      "destination": "Las Vegas, Nevada",
+      "region": "USA",
+      "date": "Fall 2023, Summer 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 4,
+      "destination": "Rome, Italy",
+      "region": "Europe",
+      "date": "Summer 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 5,
+      "destination": "Paris, France",
+      "region": "Europe",
+      "date": "Summer 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 6,
+      "destination": "Nice, France",
+      "region": "Europe",
+      "date": "Summer 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 7,
+      "destination": "Barcelona, Spain",
+      "region": "Europe",
+      "date": "Summer 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 8,
+      "destination": "Washington DC, Washington",
+      "region": "USA",
+      "date": "Fall 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 9,
+      "destination": "New York City, New York",
+      "region": "USA",
+      "date": "Fall 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 10,
+      "destination": "Vancouver, Canada",
+      "region": "Canada",
+      "date": "Winter 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 11,
+      "destination": "Death Valley National Park, California",
+      "region": "USA",
+      "date": "Fall 2023",
+      "imageUrl": null
+    },
+    {
+      "id": 12,
+      "destination": "Yosemite National Park, California",
+      "region": "USA",
+      "date": "Fall 2023, Winter 2024",
+      "imageUrl": null
+    },
+    {
+      "id": 13,
+      "destination": "Cancun, Mexico",
+      "region": "Mexico",
+      "date": "Spring 2024",
+      "imageUrl": null
+    }
+  ]
+} 

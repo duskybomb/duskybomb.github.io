@@ -1,0 +1,108 @@
+{
+  "currentInterests": [
+    {
+      "id": 1,
+      "name": "Running",
+      "icon": "🏃‍♂️"
+    },
+    {
+      "id": 2,
+      "name": "Pulling Espresso",
+      "icon": "☕"
+    },
+    {
+      "id": 3,
+      "name": "FIFA",
+      "icon": "⚽"
+    },
+    {
+      "id": 4,
+      "name": "Hiking",
+      "icon": "🥾"
+    },
+    {
+      "id": 5,
+      "name": "Barcelona",
+      "icon": "🏟️"
+    },
+    {
+      "id": 6,
+      "name": "Vibe Coding",
+      "icon": "💻"
+    },
+    {
+      "id": 7,
+      "name": "Pokemon Plushies",
+      "icon": "🧸"
+    }
+  ],
+  "funFacts": [
+    "Recently, lived my dream of watching Messi play in person",
+    "I'm a top 0.5% diner in Palo Alto according to Beli",
+    "I'm currently learning Mandarin and Spanish",
+    "Net positive in poker -- played in Vegas, Stanford, San Jose, Reno, and India",
+    "I can pull a perfect shot of espresso",
+    "My espresso martini is world famous (India, USA)"
+  ],
+  "currentObsessions": [
+    {
+      "id": 1,
+      "topic": "Scaling AI tasks for the real world",
+      "description": "I'm working on building a system that can scale AI tasks for the real world. My work on Genie Worksheets is a step in this direction."
+    },
+    {
+      "id": 2,
+      "topic": "Trying out all the food in the Bay Area",
+      "description": "I'm trying to eat at every restaurant in the Bay Area. Send me recommendations!"
+    },
+    {
+      "id": 3,
+      "topic": "Learning Guitar",
+      "description": "I'm learning to play guitar and not making any progress! Can play Perfect by Ed Sheeran tho."
+    }
+  ],
+  "bucketList": [
+    {
+      "id": 1,
+      "category": "Goal",
+      "title": "Learn to Play Piano",
+      "description": "Master at least 5 classical pieces",
+      "icon": "🎯"
+    },
+    {
+      "id": 2,
+      "category": "Experience",
+      "title": "Northern Lights in Norway",
+      "description": "See the Aurora Borealis in person",
+      "icon": "🌍"
+    },
+    {
+      "id": 3,
+      "category": "Learn",
+      "title": "Fluent in Japanese",
+      "description": "Be able to have conversations in Japanese",
+      "icon": "📚"
+    },
+    {
+      "id": 4,
+      "category": "Adventure",
+      "title": "Climb Mount Kilimanjaro",
+      "description": "Summit Africa's highest peak",
+      "icon": "🏔️"
+    },
+    {
+      "id": 5,
+      "category": "Goal",
+      "title": "Write a Technical Book",
+      "description": "Publish a book about software development",
+      "icon": "✍️"
+    },
+    {
+      "id": 6,
+      "category": "Experience",
+      "title": "Live in Another Country",
+      "description": "Experience life in a different culture for 6+ months",
+      "icon": "🌎"
+    }
+  ]
+} 
