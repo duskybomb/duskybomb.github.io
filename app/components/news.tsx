@@ -27,8 +27,9 @@ export function News() {
                 {formatDate(post.metadata.publishedAt, true)}
               </p>
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
-                {post.metadata.title} {post.metadata.link && <a href={post.metadata.link} className="text-neutral-600 dark:text-neutral-400 text-sm bright"> Link
-                </a>}
+                {post.metadata.title} {post.metadata.link && <a href={post.metadata.link} className="text-neutral-600 dark:text-neutral-400 text-sm bright"> Link</a>}
+                {post.metadata.video && <a href={post.metadata.video} className="text-neutral-600 dark:text-neutral-400 text-sm bright"> Video</a>}
+                {post.metadata.image && <a href={post.metadata.image} className="text-neutral-600 dark:text-neutral-400 text-sm bright"> Image</a>}
               </p>
             </div>
           </div>

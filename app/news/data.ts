@@ -3,6 +3,7 @@ export type NewsMetadata = {
   publishedAt: string
   link?: string
   image?: string
+  video?: string
 }
 
 export type NewsItem = {
@@ -27,7 +28,9 @@ export const newsData: NewsItem[] = [
     metadata: {
       title: 'Gave a talk at The First Workshop of a Public AI Assistant to World Wide Knowledge (WWK) on Genie Worksheets.',
       publishedAt: '2025-02-14',
-      link: 'https://www.youtube.com/watch?v=7YUihy6_vSY'
+      link: 'https://hai.stanford.edu/events/the-first-workshop-of-a-public-ai-assistant-to-world-wide-knowledge-wwk',
+      video: 'https://www.youtube.com/watch?v=7YUihy6_vSY',
+      image: 'https://commons.wikimedia.org/wiki/File:Harshit_Joshi_at_The_First_Workshop_of_a_Public_AI_Assistant_to_WWK_2025.jpg'
     }
   },
   {
