@@ -49,7 +49,7 @@ export default function Page() {
           </p>
           <ExpandableText
             moreLabel={<span className="bright">More History ↓</span>}
-            lessLabel={<span className="bright">&nbsp;<br/>Less History ↑</span>}
+            lessLabel={<span className="bright">&nbsp;Less History ↑</span>}
           >
             <>
               I have been a Research Software Engineer at{' '}
