@@ -1,7 +1,9 @@
 import booksData from '../../data/books.json'
-import travelsData from '../../data/travels.json'
 import activitiesData from '../../data/activities.json'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
+
+const VisitedWorldMap = dynamic(() => import('../components/VisitedWorldMap'), { ssr: false });
 
 export const metadata = {
   title: 'Fun',
@@ -78,17 +80,9 @@ export default function Page() {
       <div id="travel" className="mb-12">
         <h2 className="text-xl font-medium tracking-tight mt-6 mb-6">✈️ Places I've Been</h2>
         <p className="text-neutral-600 dark:text-neutral-400 mb-6">
-          Some recent places I've been.
+          Hover over the map to see visited countries and latest visit date.
         </p>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {travelsData.travels.map((travel) => (
-            <div key={travel.id} className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
-              <h3 className="font-medium text-neutral-900 dark:text-neutral-100 mb-1">{travel.destination}</h3>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-2">{travel.region} • {travel.date}</p>
-            </div>
-          ))}
-        </div>
+        <VisitedWorldMap />
       </div>
 
       {/* Other Fun Activities Section */}
