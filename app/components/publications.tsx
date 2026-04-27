@@ -19,39 +19,38 @@ export function Publications({ showAll = false }: { showAll?: boolean }) {
         })
         .filter((pub) => showAll || pub.metadata.selected === "True")
         .map((pub) => (
-          <Link
+          <div
             key={pub.slug}
             className="flex flex-col space-y-1 mb-4"
-            href={`/publications/${pub.slug}`}
           >
             <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
-              <p className="text-neutral-600 dark:text-neutral-400 flex-none w-14 pr-2 tabular-nums">
+              <p className="text-neutral-600 flex-none w-14 pr-2 tabular-nums">
                 {getYear(pub.metadata.publishedAt)}
               </p>
               <div>
-                <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+                <Link href={`/publications/${pub.slug}`} className="text-neutral-900 tracking-tight hover:underline">
                   {pub.metadata.title}
-                </p>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                </Link>
+                <p className="text-neutral-600 text-sm">
                   {pub.metadata.authors} • {pub.metadata.venue}
                 </p>
-                <p className="flex text-neutral-600 dark:text-neutral-400 text-sm space-x-2">
-                    {pub.metadata.link && <a href={pub.metadata.link} className="text-neutral-600 dark:text-neutral-400 text-sm bright">
+                <p className="flex text-neutral-600 text-sm space-x-2">
+                    {pub.metadata.link && <a href={pub.metadata.link} className="text-neutral-600 text-sm bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
                         project page
                     </a>}
-                    {pub.metadata.code && <a href={pub.metadata.code} className="text-neutral-600 dark:text-neutral-400 text-sm bright">
+                    {pub.metadata.code && <a href={pub.metadata.code} className="text-neutral-600 text-sm bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
                         code
                     </a>}
-                    {pub.metadata.arxiv && <a href={pub.metadata.arxiv} className="text-neutral-600 dark:text-neutral-400 text-sm bright">
+                    {pub.metadata.arxiv && <a href={pub.metadata.arxiv} className="text-neutral-600 text-sm bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
                         arxiv
                     </a>}
-                    {pub.metadata.media && <a href={pub.metadata.media} className="text-neutral-600 dark:text-neutral-400 text-sm bright">
+                    {pub.metadata.media && <a href={pub.metadata.media} className="text-neutral-600 text-sm bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
                         media
                     </a>}
                 </p>
               </div>
             </div>
-          </Link>
+          </div>
         ))}
     </div>
   )

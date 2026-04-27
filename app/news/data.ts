@@ -13,6 +13,13 @@ export type NewsItem = {
 export const newsData: NewsItem[] = [
   {
     metadata: {
+      title: 'New paper: 🍔 SLIDERS — Scalable QA over Long Document Sets.',
+      publishedAt: '2026-04-24',
+      link: 'https://sliders.genie.stanford.edu',
+    }
+  },
+  {
+    metadata: {
       title: 'Quoted in The Economist article "Can India be an AI winner?" discussing AI developments in India.',
       publishedAt: '2025-06-12',
       link: 'https://www.economist.com/asia/2025/06/12/can-india-be-an-ai-winner'

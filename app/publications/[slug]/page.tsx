@@ -79,32 +79,32 @@ export default function Publication({ params }) {
         {pub.metadata.title}
       </h1>
       <div className="flex justify-between items-center mt-2 mb-2 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-600">
           {formatDate(pub.metadata.publishedAt)}
         </p>
       </div>
       <div className="flex justify-between items-center mt-2 mb-2 text-sm">
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="text-sm text-neutral-600">
           {pub.metadata.authors} | {pub.metadata.venue}
         </p>
       </div>
       <div className="flex justify-between items-center mt-2 mb-8 text-sm">
-        <div className="flex items-center gap-3 text-sm text-neutral-600 dark:text-neutral-400">
-          <a href={pub.metadata.link} className="text-sm text-neutral-600 dark:text-neutral-400 bright hover:text-neutral-900 dark:hover:text-neutral-100">
+        <div className="flex items-center gap-3 text-sm text-neutral-600">
+          <a href={pub.metadata.link} className="text-sm text-neutral-600 bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
             project page
           </a>
           {pub.metadata.code && (
-            <a href={pub.metadata.code} className="text-sm text-neutral-600 dark:text-neutral-400 bright hover:text-neutral-900 dark:hover:text-neutral-100">
+            <a href={pub.metadata.code} className="text-sm text-neutral-600 bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
               code
             </a>
           )}
           {pub.metadata.arxiv && (
-            <a href={pub.metadata.arxiv} className="text-sm text-neutral-600 dark:text-neutral-400 bright hover:text-neutral-900 dark:hover:text-neutral-100">
+            <a href={pub.metadata.arxiv} className="text-sm text-neutral-600 bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
               arxiv
             </a>
           )}
           {pub.metadata.media && (
-            <a href={pub.metadata.media} className="text-sm text-neutral-600 dark:text-neutral-400 bright hover:text-neutral-900 dark:hover:text-neutral-100">
+            <a href={pub.metadata.media} className="text-sm text-neutral-600 bright hover:text-neutral-900" target="_blank" rel="noopener noreferrer">
               media
             </a>
           )}
