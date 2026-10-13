@@ -13,7 +13,14 @@ export type NewsItem = {
 export const newsData: NewsItem[] = [
   {
     metadata: {
-      title: 'New paper: 🍔 SLIDERS — Scalable QA over Long Document Sets.',
+      title: 'New paper: ⚡ SHELDON — Reasoning through Dual Search over Hypothesis and Observation Spaces',
+      publishedAt: '2026-10-13',
+      link: 'https://sheldon.genie.stanford.edu',
+    }
+  },
+  {
+    metadata: {
+      title: 'New paper: 🍔 SLIDERS — Scalable QA over Long Document Sets. (Neurips 2026)',
       publishedAt: '2026-04-24',
       link: 'https://sliders.genie.stanford.edu',
     }

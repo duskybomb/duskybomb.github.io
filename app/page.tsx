@@ -40,8 +40,8 @@ export default function Page() {
             Harshit Joshi (हर्षित जोशी)
           </h1>
           <p className="mb-4">
-            I'm a third-year CS PhD student at Stanford University with the StanfordNLP group and <a href="https://oval.cs.stanford.edu/" className='bright' target="_blank" rel="noopener noreferrer">OVAL</a> lab, advised by <a href="https://suif.stanford.edu/~lam/" className="people" target="_blank" rel="noopener noreferrer">Prof. Monica Lam</a>.
-            I'm currently interested in creating systems that assist users and researchers to leverage LLMs for gathering and curating knowledge — see <a href="https://sliders.genie.stanford.edu" className="bright" target="_blank" rel="noopener noreferrer">🍔 SLIDERS</a> and <a href="https://ws.genie.stanford.edu" className="bright" target="_blank" rel="noopener noreferrer">🤖 Genie Worksheets</a>.
+            I'm a fourth-year CS PhD student at Stanford University with the StanfordNLP group and <a href="https://oval.cs.stanford.edu/" className='bright' target="_blank" rel="noopener noreferrer">OVAL</a> lab, advised by <a href="https://suif.stanford.edu/~lam/" className="people" target="_blank" rel="noopener noreferrer">Prof. Monica Lam</a>.
+            I'm currently interested in creating systems that assist users and researchers to leverage LLMs for gathering and curating knowledge — see <a href="https://sheldon.genie.stanford.edu" className="bright" target="_blank" rel="noopener noreferrer">⚡ SHELDON</a>, <a href="https://sliders.genie.stanford.edu" className="bright" target="_blank" rel="noopener noreferrer">🍔 SLIDERS</a> and <a href="https://ws.genie.stanford.edu" className="bright" target="_blank" rel="noopener noreferrer">🤖 Genie Worksheets</a>.
           </p>
 
           <p className="mb-4">
